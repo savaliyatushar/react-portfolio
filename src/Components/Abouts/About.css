@@ -1,0 +1,61 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.main-about {
+    padding-top: 150px;
+    padding-bottom: 70px;
+    animation: fadeIn 1s ease-out forwards;
+}
+
+.column {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-img {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    padding-top: 10px;
+}
+.aboutimg1{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.aboutimg {
+    background-color: #198754;
+    color: #171818;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.aboutimg:hover {
+    box-shadow: #3a3c41 15px -14px 1px;
+}
+
+.imgtext {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    font-size: 12.5px;
+    text-align: center;
+}

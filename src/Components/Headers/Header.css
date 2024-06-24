@@ -1,0 +1,162 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+.animated-fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.main-header {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.cartton1 {
+    width: max-content;
+    height: max-content;
+    margin-top: -32px;
+    animation: fadeInCartton 1.5s ease-out forwards;
+}
+
+.image-container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+/* Define animations */
+@keyframes fadeInCartton {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeout {
+    from {
+        opacity: 0;
+        transform: scale(2);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromBottom {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromTop {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.corner {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+.html-top-left {
+    top: 21px;
+    left: 67px;
+    width: auto;
+    height: 70px;
+    animation-name: slideInFromTop;
+}
+
+.sass-top-left {
+    top: 239px;
+    left: 109px;
+                   /*@keyframes fadeInCartton na karne sass icon chupay che  */
+    width: auto;
+    height: 80px;
+    animation-name: slideInFromRight;
+}
+
+.javascript-top-right {
+    top: -26px;
+    right: 114px;
+    animation-name: slideInFromRight;
+}
+
+.css-bottom-left {
+    bottom: 0;
+    left: 0;
+    animation-name: slideInFromBottom;
+}
+
+.react-bottom-right {
+    bottom: 267px;
+    right: 76px;
+    width: auto;
+    height: 86px;
+    animation-name: fadeout;
+}
+
+.reactbs5-bottom-right {
+    bottom: 138px;
+    right: 47px;
+    border-radius: 100%;
+    width: auto;
+    height: 47px;
+    animation-name: fadeout;
+}

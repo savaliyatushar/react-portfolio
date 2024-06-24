@@ -1,0 +1,42 @@
+.custom-button {
+    background-color: transparent !important;
+    border: 1px solid yellow !important;
+    transition: 0.5s;
+}
+
+.custom-button:hover {
+    background-color: yellow !important;
+    color: black !important;
+}
+.navbar-nav .nav-link {
+    padding-right: 25px !important;
+}
+.me-auto {
+    margin-left: 34% !important;
+    margin-right: 21% !important;
+}
+
+.padding-end {
+    margin-right: 100px !important;
+}
+
+.main-navbar {
+    padding-top: 0px !important;
+}
+.nav-link{
+    color: white !important;
+}
+.nav-link:hover{
+    color:#198754 !important;
+}
+.nav-logo {
+    height: 55px;
+    border-radius: 28px;
+    width: auto
+}
+.FaFacebook,
+.IoLogoGithub,
+.FaLinkedin,
+.ImMail4 {
+    margin-right: 5px;
+}

@@ -1,0 +1,50 @@
+.footer-section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #2d2e32;
+}
+
+.footer-logo {
+    height: 60px;
+    border-radius: 28px;
+    width: auto
+}
+
+.footer-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerrow {
+    justify-content: center;
+}
+
+.footerleft {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.footerright {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.media-icon {
+
+    align-items: center;
+    justify-content: center;
+}
+
+.whatsapp,
+.LinkedinIn,
+.Github,
+.Facebook {
+    padding-right: 5px;
+    font-size: 25px;
+
+}

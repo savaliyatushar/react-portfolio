@@ -1,0 +1,50 @@
+.html-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.css-div {
+    display: flex;
+    padding-top: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sass-div {
+    display: flex;
+    padding-top: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.reactbs5-div {
+    display: flex;
+    padding-top: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.javascript-div {
+    display: flex;
+    padding-top: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.react-div {
+    display: flex;
+    padding-top: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgskills {
+    height: 40px;
+}
+
+.pro-bar {
+    width: 50%;
+    height: 7px !important;
+
+}
