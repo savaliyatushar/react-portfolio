@@ -12,19 +12,22 @@ const Header = () => {
                         className="d-flex align-items-center justify-content-center"
                         style={{ height: '70vh' }}>
                         <Col lg={5}
-                            className="d-flex justify-content-center">
+                            className="text-center">
                             {HeaderData.map(item => (
                                 <div key={item.id}>
                                     <h1
                                         className='text-white text-center animated-fade-in'>
                                         {item.heading}
-                                        <span className='text-success'>
-                                            {item.developerText}
-                                        </span>
+                                        
                                     </h1>
+                                    <div>
+                                        <h2 className='text-success text-center h1  animated-fade-in'>
+                                            {item.developerText}
+                                        </h2>
+                                    </div>
                                 </div>
                             ))}
-                        </Col>
+                        </Col>  
                         <Col lg={7} 
                         className='d-flex justify-content-center'>
                             <div 

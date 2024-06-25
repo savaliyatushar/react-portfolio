@@ -1,3 +1,10 @@
 .section-skills{
-margin-bottom: 70px;
+margin-bottom: 80px;
+}
+.skillheading{
+    display: flex;
+    justify-content: center;
+}
+.head{
+    font-size: 40px;
 }

@@ -13,10 +13,11 @@ const Navbars = () => {
                             <img className='nav-logo' src={images} alt='brand' />WEB.DEV
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-between">
-                            <Nav className="mx-auto">
+                        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+                            <Nav className="">
                                 <Link className="nav-link" to="/home">Home</Link>
                                 <Link className="nav-link" to="/about-me">About Me</Link>
+                                <Link className="nav-link" to="/skills">Skills</Link>
                                 <Link className="nav-link" to="/features">Features</Link>
                             </Nav>
                         </Navbar.Collapse>

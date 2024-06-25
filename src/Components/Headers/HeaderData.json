@@ -1,7 +1,12 @@
 [
    {
     "id": 1,
-    "heading": "HELLO",
-    "developerText": "DEVELOPER"
+    "heading": "I AM "
+    
+},
+
+   {
+    "id": 2,
+    "developerText": " REACT JS DEVELOPER"
 }
 ]
