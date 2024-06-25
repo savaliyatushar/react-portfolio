@@ -4,7 +4,7 @@ import { css, html, javascript, react, reactbs5, sass } from '../../images';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import { Col } from 'react-bootstrap';
 
-const Progressbars = () => {
+const   Progressbars = () => {
     const [htmlProgress, sethtmlProgress] = useState(0);
     const [cssProgress, setcssProgress] = useState(0);
     const [sassProgress, setsassProgress] = useState(0);
@@ -40,7 +40,7 @@ const Progressbars = () => {
                         now={htmlProgress}
                         className='pro-bar'
                     />
-                    {`${htmlProgress}%`}
+                        <span className="progress-text">{`${htmlProgress}%`}</span>
                 </div>
             </div>
             <div className='main-skills '>
@@ -54,7 +54,7 @@ const Progressbars = () => {
                         now={cssProgress}
                         className='pro-bar'
                     />
-                    {`${cssProgress}%`}
+                        <span className="progress-text">{`${cssProgress}%`}</span>
                 </div>
             </div>
             <div className='main-skills '>
@@ -62,13 +62,13 @@ const Progressbars = () => {
                     <img
                         src={sass}
                         alt='html'
-                        className="imgskills" />
+                        className="sass-imgskills" />
                     <ProgressBar
                         variant="success"
                         now={sassProgress}
                         className='pro-bar'
                     />
-                    {`${sassProgress}%`}
+                        <span className="progress-text"> {`${sassProgress}%`}</span>
 
                 </div>
             </div>
@@ -83,7 +83,7 @@ const Progressbars = () => {
                         now={reactbs5Progress}
                         className='pro-bar'
                     />
-                    {`${reactbs5Progress}%`}
+                        <span className="progress-text">{`${reactbs5Progress}%`}</span>
 
                 </div>
             </div>
@@ -98,7 +98,7 @@ const Progressbars = () => {
                         now={javascriptprogress}
                         className='pro-bar'
                     />
-                    {`${javascriptprogress}%`}
+                        <span className="progress-text"> {`${javascriptprogress}%`}</span>
                 </div>
             </div>
             <div className='main-skills '>
@@ -112,7 +112,7 @@ const Progressbars = () => {
                         now={reactProgress}
                         className='pro-bar'
                     />
-                    {`${reactProgress}%`}
+                        <span className="progress-text"> {`${reactProgress}%`}</span>
                 </div>
             </div>
             </Col>

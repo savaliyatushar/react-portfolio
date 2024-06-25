@@ -1,22 +1,26 @@
 import React from 'react';
-import "./Skills.css"
+import "./Skills.css";
 import Progressbars from '../Progressbar/Progressbar';
+import { Col, Container, Row } from 'react-bootstrap';
 
 const Skills = () => {
     return (
         <div>
             <section className='section-skills'>
-               
-                <div className='b'>
-                    <div className='skillheading'>
-                        <div className='heading'>
-                            <span className='head'>Skills</span>
+                <Container>
+                    <div className='skillshead'>
+                        <div className='skills'>
+                            <span className='main-skills'>Skills</span>
                         </div>
                     </div>
-                   <div className=' justify-content-center'>
-                        <Progressbars />
-                   </div>
-                </div>
+                    <Row>
+                      <Col>1223466</Col>
+                            <Col>
+                                <Progressbars />
+                            </Col>
+                        
+                    </Row>
+                </Container>
             </section>
         </div>
     );
