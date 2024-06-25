@@ -30,12 +30,10 @@ const Header = () => {
                             <div 
                             className="d-flex justify-content-center image-container">
                                 <img 
-                                src={html}
-                                 alt="html" 
+                                src={html} alt="html" 
                                  className="corner html-top-left" />
                                 <img 
-                                src={sass} 
-                                alt="sass" 
+                                src={sass}  alt="sass" 
                                 className="corner sass-top-left" />   
                                 <img 
                                 src={javascript} 
