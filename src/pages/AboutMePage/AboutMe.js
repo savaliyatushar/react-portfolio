@@ -1,7 +1,15 @@
 import React from 'react';
-import Aboutme from '../../Components/Aboutme/Aboutme';
+import Aboutme from "../../Components/Aboutme/Aboutme";
+
 const AboutMePage = () => {
-  return <Aboutme/>;
+
+  return (
+    <>
+     
+      <Aboutme />
+
+    </>
+  );
 };
 
 export default AboutMePage;

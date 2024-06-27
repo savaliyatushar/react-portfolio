@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <div>
             <section className='main-header'>
-                <Container fluid>
+                <Container >
                     <Row
                         className="d-flex align-items-center justify-content-center"
                         style={{ height: '70vh' }}>

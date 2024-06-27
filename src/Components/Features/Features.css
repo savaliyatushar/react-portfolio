@@ -9,9 +9,11 @@
         transform: translateY(0);
     }
 }
-
+.Featureshead{
+    font-size: 40px;
+}
 .main-about {
-    padding-top: 150px;
+    padding-top: 120px;
     padding-bottom: 70px;
     animation: fadeIn 1s ease-out forwards;
 }

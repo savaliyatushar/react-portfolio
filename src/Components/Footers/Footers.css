@@ -1,29 +1,35 @@
 .footer-section {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    /* padding-top: 60px; */
+    /* padding-bottom: 70px; */
     background-color: #2d2e32;
+   
 }
 
 .footer-logo {
     height: 60px;
-    border-radius: 28px;
-    width: auto
+   
+    width: auto;
 }
 
 .footer-img {
     display: flex;
     justify-content: center;
     align-items: center;
+        padding-bottom: 25px;
 }
 
 .footerrow {
     justify-content: center;
+    padding-top: 25px;
+    
+   
 }
 
 .footerleft {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
 }
 
@@ -40,6 +46,19 @@
     justify-content: center;
 }
 
+.wp-face{
+    display: flex;
+}
+.li-git{
+    display: flex;
+}
+.Github{
+  /* padding-left: 10px; */
+  margin-left: 52px;
+}
+.Facebook{
+    margin-left: 20px;
+}
 .whatsapp,
 .LinkedinIn,
 .Github,
@@ -47,4 +66,17 @@
     padding-right: 5px;
     font-size: 25px;
 
+}
+.copyright{
+height: 50px;
+    display: flex;
+    background-color: #25262a;
+    justify-content: center;
+    align-items: center;
+    
+}
+.LuCopyright{
+    margin: 0%;
+    display: flex;
+    align-items: center;
 }

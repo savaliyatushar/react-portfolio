@@ -1,6 +1,14 @@
 .section-skills{
 margin-bottom: 80px;
 }
+.skillscol{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+}
+.skill-p{
+    text-align: center;
+}
 .skillshead{
     display: flex;
     justify-content: center;

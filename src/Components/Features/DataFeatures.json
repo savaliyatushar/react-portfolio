@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "MdSpeed",
+    "title": "Fast",
+    "description": "Fast load times and lag free interaction, My highest priority."
+  },
+  {
+    "icon": "CiMobile2",
+    "title": "Responsive",
+    "description": "My layouts will work on any device, big or small."
+  },
+  {
+    "icon": "TiLightbulb",
+    "title": "Intuitive",
+    "description": "Strong preference for easy to use, intuitive UX/UI."
+  },
+  {
+    "icon": "BiLogoReact",
+    "title": "Dynamic",
+    "description": "Websites don't have to be static, I love making pages come to life."
+  }
+]

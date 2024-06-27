@@ -38,6 +38,7 @@
 
 .nav-logo {
     height: 55px;
-    border-radius: 28px;
+    
+    /* border-radius: 28px; */
     width: auto;
 }
