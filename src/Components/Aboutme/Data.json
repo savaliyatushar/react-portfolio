@@ -1,17 +1,22 @@
-
-{
-    "details": {
-        "name": "Tushar Savaliya",
-        "age": "22 years",
-        "dob": "04/11/2002",
-        "city": "Ahmedabad",
-        "mo": "xxxxxxxxx"
+[
+    {
+        "title": "My Education",
+        "entries": [
+            {
+                "duration": "2021 - 2024",
+                "degree": "Bachelor of Computer Applications",
+                "description": "I have completed my BCA education in Navgujarat College of Computer Application in Ahmedabad."
+            }
+        ]
     },
-    "aboutMe": [
-        
-     "Hi ,My name is Tushar savaliya and I am a ReactJS developer, I have completed my BCA education in Navgujarat College of Computer Application in Ahemdabad.",
-        "I have 6 months of experience in ReactJS which I have done internship from SMN Digital Consultancy Lab which I have done from 01/01/2024 to 01/07/2024And react js, I have learned other languages ​​like HTML5, css3, Sass, React-Bootstrap, JavaScript and I am still eager to learn more."
-    ]
-
-
-}
+    {
+        "title": "Professional Experience",
+        "entries": [
+            {
+                "duration": "2024 - 2024",
+                "role": "React JS Developer",
+                "description": "I have 6 months of experience in ReactJS which I have done internship from SMN Digital Consultancy Lab from 01/01/2024 to 01/07/2024. During this period, I also learned HTML5, CSS3, Sass, React-Bootstrap, JavaScript, and I am still eager to learn more."
+            }
+        ]
+    }
+]

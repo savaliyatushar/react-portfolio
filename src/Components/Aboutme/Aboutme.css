@@ -1,18 +1,22 @@
+
+
 .main-profile {
     margin-top: 70px;
     margin-bottom: 70px;
-    animation: fadeIn 2s;
+    /* animation: fadeIn 2s; */
 }
 
 .sectioncolor {
     background-color: #2d2e32;
     animation: backgroundFade 2s infinite alternate;
 }
-
+.pera-p{
+    text-align: justify;
+}
 .aboutcol {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     animation: slideIn 1.5s ease-out;
 }
 
@@ -30,7 +34,15 @@
 
 .aboutdetailes {
     text-align: center;
+    /* opacity: 0;
+        transform: translateY(100px);
+        transition: opacity 0.5s ease, transform 0.5s ease; */
 }
+/* .aboutdetailes.animate{
+ opacity: 1;
+    transform: translateY(0);
+
+} */
 
 .profile-column {
     display: flex;
@@ -107,52 +119,123 @@
 .profile-row {
     display: flex;
     flex-wrap: wrap;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+
 }
 
-.profile-column, .aboutcol {
+.profile-row.animate {
+    opacity: 1;
+    /* Fade in when section comes into view */
+    transform: translateY(0);
+    /* Slide up when section comes into view */
+}
+
+.profile-column,
+.aboutcol {
     flex: 1;
 }
-
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+.about-p{
+    padding-top: 20px;
 }
+/* @keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+} */
 
 @keyframes backgroundFade {
-    from { background-color: #2d2e32; }
-    to { background-color: #3a3b3f; }
+    from {
+        background-color: #2d2e32;
+    }
+
+    to {
+        background-color: #3a3b3f;
+    }
 }
 
 @keyframes slideIn {
-    from { transform: translateY(100px); opacity: 0; }
-    to { transform: translateY(0); opacity: 1; }
+    from {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 @keyframes bounceIn {
-    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
-    40% { transform: translateY(-30px); }
-    60% { transform: translateY(-15px); }
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-30px);
+    }
+
+    60% {
+        transform: translateY(-15px);
+    }
 }
 
 @keyframes textFadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 @keyframes growIn {
-    from { transform: scale(0); opacity: 0; }
-    to { transform: scale(1); opacity: 1; }
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 
 @keyframes float {
-    0% { transform: translateY(0); }
-    50% { transform: translateY(-10px); }
-    100% { transform: translateY(0); }
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
 
 @keyframes popIn {
-    from { transform: scale(0); opacity: 0; }
-    to { transform: scale(1); opacity: 1; }
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 
 /* 
@@ -179,4 +262,3 @@
 .about-p {
   text-align: justify;
 } */
-

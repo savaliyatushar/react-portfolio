@@ -1,5 +1,5 @@
 import "./Features.css";
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { MdSpeed } from "react-icons/md";
 import { CiMobile2 } from "react-icons/ci";
@@ -15,10 +15,35 @@ const icons = {
 };
 
 const Feature = () => {
+    const featureref = useRef(null);
+
+    useEffect(() => {
+        const mainfeature = featureref.current;
+
+        const handleScroll = () => {
+            if (mainfeature) {
+                const top = mainfeature.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+
+                if (top < windowHeight * 0.5) {
+                    mainfeature.classList.add('animate');
+                } else {
+                    mainfeature.classList.remove('animate');
+                }
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     return (
         <div>
-            <section className='main-about'>
-                <div>
+            <section ref={featureref} className='main-feature'>
+                <div >
                     <Container>
                         <div className='Features-div d-flex justify-content-center'>
                             <div className='Features pb-5'>

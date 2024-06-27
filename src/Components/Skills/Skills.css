@@ -1,13 +1,13 @@
-.section-skills{
+/* .section-skills{
 margin-bottom: 80px;
-}
+} */
 .skillscol{
     display: flex;
         flex-direction: column;
         justify-content: center;
 }
 .skill-p{
-    text-align: center;
+    text-align:justify;
 }
 .skillshead{
     display: flex;
@@ -15,4 +15,21 @@ margin-bottom: 80px;
 }
 .main-skills{
     font-size: 40px;
+}
+
+.section-skills {
+    margin-bottom: 80px;
+    opacity: 0;
+    /* Start with opacity 0 to prepare for animation */
+    transform: translateY(100px);
+    /* Start slightly below to prepare for animation */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    /* Smooth transition */
+}
+
+.section-skills.animate {
+    opacity: 1;
+    /* Fade in when section comes into view */
+    transform: translateY(0);
+    /* Slide up when section comes into view */
 }

@@ -1,4 +1,4 @@
-@keyframes fadeIn {
+/* @keyframes fadeIn {
     from {
         opacity: 0;
         transform: translateY(20px);
@@ -8,14 +8,24 @@
         opacity: 1;
         transform: translateY(0);
     }
-}
-.Featureshead{
+} */
+.Featureshead {
     font-size: 40px;
 }
-.main-about {
+
+.main-feature {
     padding-top: 120px;
     padding-bottom: 70px;
-    animation: fadeIn 1s ease-out forwards;
+    /* animation: fadeIn 1s ease-out forwards; */
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+
+}
+
+.main-feature.animate {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .column {
@@ -35,12 +45,14 @@
     width: 200px;
     padding-top: 10px;
 }
-.aboutimg1{
-        
-        display: flex;
-        align-items: center;
-        justify-content: center;
+
+.aboutimg1 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .aboutimg {
     background-color: #198754;
     color: #171818;
@@ -58,6 +70,6 @@
     width: 200px;
     display: flex;
     justify-content: center;
-    font-size: 12.5px;
+    font-size: 15px;
     text-align: center;
 }
