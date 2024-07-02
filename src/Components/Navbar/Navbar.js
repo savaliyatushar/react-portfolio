@@ -18,8 +18,8 @@ const Navbars = () => {
                                 <Link className="nav-link" to="/home">Home</Link>
                                 <Link className="nav-link" to="/Feature">Features</Link>
                                 <Link className="nav-link" to="/about-me">About Me</Link>
+                                <Link className='nav-link' to= "/work">Work</Link>
                                 <Link className="nav-link" to="/skills">Skills</Link>
-                               
                             </Nav>
                         </Navbar.Collapse>
                     </Container>

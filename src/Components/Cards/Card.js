@@ -10,8 +10,7 @@ const Cards = ({ description, img, title, customClass, customClassbody }) => {
                      <CardImg src={img} alt="img"></CardImg>
                 <CardBody className={`cardbody ${customClassbody}`}>
                     <CardText>
-                        {title}
-                       
+                        <span>{title}</span>
                     </CardText>
                     <CardText>
                         {description}

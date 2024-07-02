@@ -4,7 +4,9 @@ import Work from '../../Components/Works/Work';
 const Workpage = () => {
     return (
         <div>
-            <Work/>
+            <Work 
+             
+            />
         </div>
     );
 }
