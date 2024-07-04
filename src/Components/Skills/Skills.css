@@ -18,7 +18,6 @@
 }
 
 .section-skills {
-    margin-bottom: 80px;
     opacity: 0;
     /* Start with opacity 0 to prepare for animation */
     transform: translateY(100px);

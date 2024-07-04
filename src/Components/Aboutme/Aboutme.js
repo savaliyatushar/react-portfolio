@@ -1,11 +1,9 @@
 import React, { useEffect, useRef } from 'react';
 import "./Aboutme.css"
 import { Col, Container, Row } from 'react-bootstrap';
-// import Cards from '../Cards/Card';
 import Data from "./Data.json"
 import { profile } from '../../images';
 import Cv from '../Resume/cv';
-// import Progressbars from '../SkillProgressbar/Progressbar';
 
 const Aboutme = () => {
     const aboutmeref = useRef(null);
@@ -60,7 +58,7 @@ const Aboutme = () => {
                                                     <h6>DOB:04/11/2002</h6>
                                                     <h6>City:Ahemdabad</h6>
                                                     <h6>Mo:9426658006</h6>
-                                                    <h6><a href='https://mail.google.com/mail/u/0/#inbox?compose=new'>savaliyatushar100@gmail.com</a></h6>
+                                                    <h6><a className='text-success' href='https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRlRQfpdWvPwlFjSRltKGvXbLvTcSmcTmVLNjxfmfRxDvHSvntXBLbhPFBPdFClgDrjpTqq'>savaliyatushar100@gmail.com</a></h6>
 
                                                 </div>
                                                 
@@ -91,9 +89,7 @@ const Aboutme = () => {
                                                     <p className=''>{entry.duration}</p>
                                                     {entry.degree ?     <h6>{entry.degree}</h6> : <h6>{entry.role}</h6>}
                                                     <p className='pera-p'>{entry.description}</p>
-                        
                                                 </div>
-                                              
                                             ))}
                                         </div>
                                     ))}

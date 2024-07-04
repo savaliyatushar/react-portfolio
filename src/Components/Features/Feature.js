@@ -6,7 +6,7 @@ import { CiMobile2 } from "react-icons/ci";
 import { TiLightbulb } from "react-icons/ti";
 import { BiLogoReact } from "react-icons/bi";
 import DataFeatures from "./DataFeatures.json";
-
+ 
 const icons = {
     MdSpeed: <MdSpeed className='aboutimg' />,
     CiMobile2: <CiMobile2 className='aboutimg' />,
@@ -71,7 +71,7 @@ const Feature = () => {
                                         </div>
                                     </Col>
                                 ))}
-                            </Row>
+                            </Row>  
                         </div>
                     </Container>
                 </div>

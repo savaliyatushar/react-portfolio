@@ -4,6 +4,8 @@ import Header from '../../Components/Headers/Header';
 import Skills from "../../Components/Skills/Skills"
 import Feature from '../../Components/Features/Feature';
 import Work from '../../Components/Works/Work';
+import Tool from '../../Components/Tools/Tool';
+// import Toolspage from '../Toolspage/Toolspage';
 const Home = () => {
     return (
         <>
@@ -12,6 +14,7 @@ const Home = () => {
             <Aboutme />
             <Work/>
             <Skills />
+            <Tool/>
         </>
     );
 };

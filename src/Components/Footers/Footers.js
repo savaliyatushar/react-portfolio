@@ -44,7 +44,7 @@ const Footers = () => {
                                {/* </div> */}
                                 {/* <div className='media-link'> */}
                                     <div className='wp-face'>
-                                        <Nav.Link href='/'> <IoLogoWhatsapp className='whatsapp' /> +9426658006</Nav.Link>
+                                    <Nav.Link href='https://web.whatsapp.com/'> <IoLogoWhatsapp className='whatsapp' /> +9426658006</Nav.Link>
                                         <Nav.Link href='/'> <IoLogoFacebook className='Facebook' />  Facebook</Nav.Link>
                                     </div>
                                    

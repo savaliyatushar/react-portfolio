@@ -129,7 +129,7 @@
     opacity: 1;
     /* Fade in when section comes into view */
     transform: translateY(0);
-    /* Slide up when section comes into view */
+ /* Slide up when section comes into view */
 }
 
 .profile-column,
@@ -139,15 +139,7 @@
 .about-p{
     padding-top: 20px;
 }
-/* @keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
 
-    to {
-        opacity: 1;
-    }
-} */
 
 @keyframes backgroundFade {
     from {
