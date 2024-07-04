@@ -1,5 +1,5 @@
 export {default as images} from "./logo2.1.png" 
-export { default as cartoon } from "./cartoon1.png" 
+export { default as cartoon } from "./cartoon1.1.png" 
 export { default as html } from "./html.png" 
 export { default as css } from "./css.png" 
 export { default as javascript } from "./javascript.png" 

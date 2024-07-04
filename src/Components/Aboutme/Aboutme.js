@@ -4,6 +4,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 // import Cards from '../Cards/Card';
 import Data from "./Data.json"
 import { profile } from '../../images';
+import Cv from '../Resume/cv';
 // import Progressbars from '../SkillProgressbar/Progressbar';
 
 const Aboutme = () => {
@@ -52,16 +53,22 @@ const Aboutme = () => {
                                     </div>
                                     <div className='pro-details'>
                                         <Row>
-                                            <Col sm={6}>
+                                            <Col sm={12}>
                                                 <div className='details1'>
-                                                    <h6>Name:</h6>
-                                                    <h6>Age:</h6>
-                                                    <h6>DOB:</h6>
-                                                    <h6>City:</h6>
-                                                    <h6>Mo:</h6>
+                                                    <h6>Name:   Tushar Savaliya</h6>
+                                                    <h6>Age:22 years</h6>
+                                                    <h6>DOB:04/11/2002</h6>
+                                                    <h6>City:Ahemdabad</h6>
+                                                    <h6>Mo:9426658006</h6>
+                                                    <h6><a href='https://mail.google.com/mail/u/0/#inbox?compose=new'>savaliyatushar100@gmail.com</a></h6>
+
                                                 </div>
+                                                
                                             </Col>
-                                            <Col sm={6}>
+                                            <div className='d-flex justify-content-center'>
+                                                <Cv />
+                                            </div>
+                                            {/* <Col sm={6}>
                                                 <div className='details2'>
                                                     <h6>Tushar Savaliya</h6>
                                                     <h6>22 years</h6>
@@ -69,7 +76,7 @@ const Aboutme = () => {
                                                     <h6>Ahemdabad</h6>
                                                     <h6>xxxxxxxxx</h6>
                                                 </div>
-                                            </Col>
+                                            </Col> */}
                                         </Row>
                                     </div>
                                 </div>
@@ -82,9 +89,9 @@ const Aboutme = () => {
                                             {section.entries.map((entry, i) => (
                                                 <div key={i}>
                                                     <p className=''>{entry.duration}</p>
-                                                    {entry.degree ? <h6>{entry.degree}</h6> : <h6>{entry.role}</h6>}
+                                                    {entry.degree ?     <h6>{entry.degree}</h6> : <h6>{entry.role}</h6>}
                                                     <p className='pera-p'>{entry.description}</p>
-                                                  
+                        
                                                 </div>
                                               
                                             ))}

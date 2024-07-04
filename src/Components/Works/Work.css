@@ -1,0 +1,43 @@
+.main-work {
+    padding-top: 25px;
+    padding-bottom: 80px;
+    max-width: 100%;
+}
+
+/* Work.css */
+
+.main-work {
+    /* initial styles for main-work */
+}
+
+.main-section {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.main-section.animate {
+    opacity: 1;
+}
+
+.main-section {
+    background-color: rgba(0, 0, 0, 0.128);
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.main-section.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.main-stack{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+h2{
+    color: #198754 !important;
+}

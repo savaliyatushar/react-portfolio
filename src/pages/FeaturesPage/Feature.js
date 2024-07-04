@@ -1,6 +1,6 @@
 import React from 'react';
 import "../../Components/Features/Features.css"
-import DataFeatures from "../../Components/Features/DataFeatures.json"
+// import DataFeatures from "../../Components/Features/DataFeatures.json"
 import Feature from '../../Components/Features/Feature';
 
 const FeaturePage = (re) => {

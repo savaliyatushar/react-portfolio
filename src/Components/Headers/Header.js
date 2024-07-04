@@ -2,8 +2,13 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import "./Header.css";
 import HeaderData from "./HeaderData.json";
-import {  cartoon, css, html, javascript, react, reactbs5, sass,  } from '../../images';
+import { cartoon, css, html, javascript, react, reactbs5, sass, } from '../../images';
+import Cv from '../Resume/cv';
+// import Buttons from '../Buttons/Buttons';
+// import { Link } from 'react-router-dom';
 const Header = () => {
+
+
     return (
         <div>
             <section className='main-header'>
@@ -18,7 +23,7 @@ const Header = () => {
                                     <h1
                                         className='text-white text-center animated-fade-in'>
                                         {item.heading}
-                                        
+
                                     </h1>
                                     <div>
                                         <h2 className='text-success text-center h1  animated-fade-in'>
@@ -27,37 +32,38 @@ const Header = () => {
                                     </div>
                                 </div>
                             ))}
-                        </Col>  
-                        <Col lg={7} 
-                        className='d-flex justify-content-center'>
-                            <div 
-                            className="d-flex justify-content-center image-container">
-                                <img 
-                                src={html} alt="html" 
-                                 className="corner html-top-left" />
-                                <img 
-                                src={sass}  alt="sass" 
-                                className="corner sass-top-left" />   
-                                <img 
-                                src={javascript} 
-                                alt="javascript" 
-                                className="corner javascript-top-right" />  
+                            
+                        </Col>
+                        <Col lg={7}
+                            className='d-flex justify-content-center'>
+                            <div
+                                className="d-flex justify-content-center image-container">
                                 <img
-                                 src={cartoon} 
-                                 alt="" 
-                                 className="cartton1" />
-                                <img 
-                                src={css} 
-                                alt="css" 
-                                className="corner css-bottom-left" />
-                                <img 
-                                src={react} 
-                                alt="react" 
-                                className="corner react-bottom-right" />
-                                <img 
-                                    src={reactbs5} 
-                                alt="reactbs5" 
-                                className="corner reactbs5-bottom-right" />
+                                    src={html} alt="html"
+                                    className="corner html-top-left" />
+                                <img
+                                    src={sass} alt="sass"
+                                    className="corner sass-top-left" />
+                                <img
+                                    src={javascript}
+                                    alt="javascript"
+                                    className="corner javascript-top-right" />
+                                <img
+                                    src={cartoon}
+                                    alt=""
+                                    className="cartton1" />
+                                <img
+                                    src={css}
+                                    alt="css"
+                                    className="corner css-bottom-left" />
+                                <img
+                                    src={react}
+                                    alt="react"
+                                    className="corner react-bottom-right" />
+                                <img
+                                    src={reactbs5}
+                                    alt="reactbs5"
+                                    className="corner reactbs5-bottom-right" />
                             </div>
                         </Col>
 

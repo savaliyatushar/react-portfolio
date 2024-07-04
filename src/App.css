@@ -6,12 +6,13 @@ body{
 .App {
   /* background-image: url("https://media.istockphoto.com/id/1094453686/photo/studio-photography-black.webp?b=1&s=170667a&w=0&k=20&c=O1hXw_s1zI145x-aHrAFf4NdBzJM0P6CIIRfI7iET2M="); */
     background-position: center;
-    background-color: #2d2e32;
-    height: 100vh;
+    /* background-color: #2d2e32; */
+    /* height: 100vh; */
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
 font-family: "Jost", sans-serif !important;
+overflow: hidden;
 }
 
 .App-logo {

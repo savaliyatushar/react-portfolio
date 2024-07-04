@@ -4,7 +4,7 @@ import { css, html, javascript, react, reactbs5, sass } from '../../images';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import { Col } from 'react-bootstrap';
 
-const   Progressbars = () => {
+const Progressbars = () => {
     const [htmlProgress, sethtmlProgress] = useState(0);
     const [cssProgress, setcssProgress] = useState(0);
     const [sassProgress, setsassProgress] = useState(0);
@@ -29,92 +29,92 @@ const   Progressbars = () => {
     return (
         <div>
             <Col>
-            <div className='main-skills '>
-                <div className='html-div'>
-                    <img src={html}
-                        alt='html'
-                        className="imgskills"
-                    />
-                    <ProgressBar
-                        variant="success"
-                        now={htmlProgress}
-                        className='pro-bar'
-                    />
+                <div className='main-skills '>
+                    <div className='html-div'>
+                        <img src={html}
+                            alt='html'
+                            className="imgskills"
+                        />
+                        <ProgressBar
+                            variant="success"
+                            now={htmlProgress}
+                            className='pro-bar'
+                        />
                         <span className="progress-text">{`${htmlProgress}%`}</span>
+                    </div>
                 </div>
-            </div>
-            <div className='main-skills '>
-                <div className='css-div'>
-                    <img
-                        src={css}
-                        alt='html'
-                        className="imgskills" />
-                    <ProgressBar
-                        variant="success"
-                        now={cssProgress}
-                        className='pro-bar'
-                    />
+                <div className='main-skills '>
+                    <div className='css-div'>
+                        <img
+                            src={css}
+                            alt='html'
+                            className="imgskills" />
+                        <ProgressBar
+                            variant="success"
+                            now={cssProgress}
+                            className='pro-bar'
+                        />
                         <span className="progress-text">{`${cssProgress}%`}</span>
+                    </div>
                 </div>
-            </div>
-            <div className='main-skills '>
-                <div className='sass-div'>
-                    <img
-                        src={sass}
-                        alt='html'
-                        className="sass-imgskills" />
-                    <ProgressBar
-                        variant="success"
-                        now={sassProgress}
-                        className='pro-bar'
-                    />
+                <div className='main-skills '>
+                    <div className='sass-div'>
+                        <img
+                            src={sass}
+                            alt='html'
+                            className="sass-imgskills" />
+                        <ProgressBar
+                            variant="success"
+                            now={sassProgress}
+                            className='pro-bar'
+                        />
                         <span className="progress-text"> {`${sassProgress}%`}</span>
 
+                    </div>
                 </div>
-            </div>
-            <div className='main-skills '>
-                <div className='reactbs5-div'>
-                    <img
-                        src={reactbs5}
-                        alt='html'
-                        className="imgskills rounded-5" />
-                    <ProgressBar
-                        variant="success"
-                        now={reactbs5Progress}
-                        className='pro-bar'
-                    />
+                <div className='main-skills '>
+                    <div className='reactbs5-div'>
+                        <img
+                            src={reactbs5}
+                            alt='html'
+                            className="imgskills rounded-5" />
+                        <ProgressBar
+                            variant="success"
+                            now={reactbs5Progress}
+                            className='pro-bar'
+                        />
                         <span className="progress-text">{`${reactbs5Progress}%`}</span>
 
+                    </div>
                 </div>
-            </div>
-            <div className='main-skills '>
-                <div className='javascript-div'>
-                    <img
-                        src={javascript}
-                        alt='html'
-                        className="imgskills" />
-                    <ProgressBar
-                        variant="success"
-                        now={javascriptprogress}
-                        className='pro-bar'
-                    />
+                <div className='main-skills '>
+                    <div className='javascript-div'>
+                        <img
+                            src={javascript}
+                            alt='html'
+                            className="imgskills" />
+                        <ProgressBar
+                            variant="success"
+                            now={javascriptprogress}
+                            className='pro-bar'
+                        />
                         <span className="progress-text"> {`${javascriptprogress}%`}</span>
+                    </div>
                 </div>
-            </div>
-            <div className='main-skills '>
-                <div className='react-div'>
-                    <img
-                        src={react}
-                        alt='html'
-                        className="imgskills" />
-                    <ProgressBar
-                        variant="success"
-                        now={reactProgress}
-                        className='pro-bar'
-                    />
+                <div className='main-skills '>
+                    <div className='react-div'>
+                        <img
+                            src={react}
+                            alt='html'
+                            className="imgskills" />
+                        <ProgressBar
+                            variant="success"
+                            now={reactProgress}
+                            className='pro-bar'
+                        />
                         <span className="progress-text"> {`${reactProgress}%`}</span>
+                    </div>
                 </div>
-            </div>
             </Col>
         </div>
 

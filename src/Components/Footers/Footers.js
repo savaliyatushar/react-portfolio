@@ -50,8 +50,10 @@ const Footers = () => {
                                    
                                 {/* </div> */}
                             </div>
+                            
                         </Col>
                     </Row>
+                    
                 </Container>
                 <div className='copyright  mt-5'>
                     <p className='LuCopyright'><LuCopyright />Tushar Savaliya</p>

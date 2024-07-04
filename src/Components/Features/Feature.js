@@ -5,7 +5,7 @@ import { MdSpeed } from "react-icons/md";
 import { CiMobile2 } from "react-icons/ci";
 import { TiLightbulb } from "react-icons/ti";
 import { BiLogoReact } from "react-icons/bi";
-import DataFeatures from "./DataFeatures.json"
+import DataFeatures from "./DataFeatures.json";
 
 const icons = {
     MdSpeed: <MdSpeed className='aboutimg' />,
@@ -43,7 +43,7 @@ const Feature = () => {
     return (
         <div>
             <section ref={featureref} className='main-feature'>
-                <div >
+                <div>
                     <Container>
                         <div className='Features-div d-flex justify-content-center'>
                             <div className='Features pb-5'>
@@ -53,7 +53,7 @@ const Feature = () => {
                         <div className="div-row">
                             <Row>
                                 {DataFeatures.map((feature, index) => (
-                                    <Col lg={3} md={4} sm={6} key={index} className="column">
+                                    <Col lg={3} md={4} sm={6} xs={6} key={index} className="column">
                                         <div>
                                             <div className="main-img">
                                                 <div className="aboutimg1">
@@ -63,9 +63,9 @@ const Feature = () => {
                                                     <span className="h4 pt-1">{feature.title}</span>
                                                 </div>
                                                 <div className="pt-3">
-                                                    <span className="imgtext">
-                                                        {feature.description}
-                                                    </span>
+                                                    <div className="imgtext">
+                                                        <span className="imgtextdes">{feature.description}</span>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>

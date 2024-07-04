@@ -7,7 +7,7 @@ import Skillsdata from "./Skilldata.json";
 const Skills = () => {
     const skillsRef = useRef(null);
 
-    useEffect(() => {
+    useEffect(() => {   
         const sectionSkills = skillsRef.current;
 
         const handleScroll = () => {
