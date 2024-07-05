@@ -80,20 +80,17 @@
     }
 
 }
-@media (max-width:768px) {
-    .mainrow{
-        flex: 1 1 45%;
-            /* Adjust to fit two columns side by side */
-            margin: 5px;
-            display: flex;
-            justify-content: space-between;
-            /* Add margin to create space between columns */
-    }
+
+@media (max-width:400px) {
+    .div-row {
+      /* background-color: #2e2f3270; */
+       /* margin-left: 50px ; */
+    } 
 }
-@media (max-width: 350px) {
+@media (max-width: 400px) {
     .imgtext {
         width: 150px;
-        font-size: 10px;
+        font-size: 13px;
     }
 }
 

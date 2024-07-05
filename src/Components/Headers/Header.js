@@ -2,8 +2,9 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import "./Header.css";
 import HeaderData from "./HeaderData.json";
-import { cartoon, css, html, javascript, react, reactbs5, sass, } from '../../images';
+// import { cartoon, css, html, javascript, react, reactbs5, sass, } from '../../images';
 import Cv from '../Resume/cv';
+import { cartoon } from '../../images';
 // import Buttons from '../Buttons/Buttons';
 // import { Link } from 'react-router-dom';
 const Header = () => {
@@ -29,6 +30,7 @@ const Header = () => {
                                         <h2 className='text-success text-center h1  animated-fade-in'>
                                             {item.developerText}
                                         </h2>
+                                        <p>{item.pera}</p>
                                     </div>
                                 </div>
                             ))}
@@ -38,7 +40,7 @@ const Header = () => {
                             className='d-flex justify-content-center'>
                             <div
                                 className="d-flex justify-content-center image-container">
-                                <img
+                                {/* <img
                                     src={html} alt="html"
                                     className="corner html-top-left" />
                                 <img
@@ -47,12 +49,12 @@ const Header = () => {
                                 <img
                                     src={javascript}
                                     alt="javascript"
-                                    className="corner javascript-top-right" />
+                                    className="corner javascript-top-right" /> */}
                                 <img
                                     src={cartoon}
                                     alt=""
                                     className="cartton1" />
-                                <img
+                                {/* <img
                                     src={css}
                                     alt="css"
                                     className="corner css-bottom-left" />
@@ -63,7 +65,7 @@ const Header = () => {
                                 <img
                                     src={reactbs5}
                                     alt="reactbs5"
-                                    className="corner reactbs5-bottom-right" />
+                                    className="corner reactbs5-bottom-right" /> */}
                             </div>
                         </Col>
 

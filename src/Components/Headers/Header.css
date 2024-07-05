@@ -44,7 +44,12 @@
     margin-top: -32px;
     animation: float 3s ease-in-out infinite;
 }
-
+@media (max-width:400px) {
+     .cartton1{
+        max-height: 400px;
+        padding-top: 30px;
+     }
+}
 .image-container {
     position: relative;
     width: 500px;

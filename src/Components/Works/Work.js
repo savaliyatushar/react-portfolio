@@ -36,7 +36,7 @@ function Work() {
     <div className='main-work'>
       <section ref={workref} className='main-section'>
         <div className='worksite'>
-          <Row>
+          <Row className='main-row'>
             <Stack className=' main-stack' direction="horizontal" gap={5}>
               
               <div className="p-2 m-4">

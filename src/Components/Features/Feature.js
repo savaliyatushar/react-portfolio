@@ -51,7 +51,7 @@ const Feature = () => {
                             </div>
                         </div>
                         <div className="div-row">
-                            <Row>
+                            <Row className="main-row">
                                 {DataFeatures.map((feature, index) => (
                                     <Col lg={3} md={4} sm={6} xs={6} key={index} className="column">
                                         <div>

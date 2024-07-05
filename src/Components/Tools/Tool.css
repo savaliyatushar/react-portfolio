@@ -31,8 +31,8 @@
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     .toolimg {
-        max-width: 100px;
-        max-height: 100px;
+        max-width: 90px;
+        max-height: 90px;
     }
 }
 

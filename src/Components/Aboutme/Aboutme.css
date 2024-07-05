@@ -8,6 +8,7 @@
 
 .sectioncolor {
     background-color: #2d2e32;
+    /* background-image: url(''); */
     animation: backgroundFade 2s infinite alternate;
 }
 .pera-p{
@@ -26,7 +27,11 @@
     align-items: center;
     animation: bounceIn 1s;
 }
-
+@media (max-width:400px){
+    .profileabout{
+        padding-bottom: 20px;
+    }
+}
 .aboutme {
     font-size: 40px;
     animation: textFadeIn 2s;
